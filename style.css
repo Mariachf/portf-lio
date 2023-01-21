@@ -1,0 +1,481 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.sub{
+    width: 100%;
+    height: 13vh;
+    background: rgba( 0, 0, 0, 0.45 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    position: fixed;
+}
+
+.nav-1, .menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    margin-right: 2%;
+    list-style: none;
+   margin-top: 1.5%;
+    width: 50%;
+}
+
+.nav-1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 23px;
+    transition: 1s;
+    
+}
+
+.nav-1 a:hover{
+    color: #ff8997;
+}
+
+.nav-1 p{
+    font-size: 23px;
+   margin-top: .5px;
+    margin-left: 4%;
+}
+
+.h2-1{
+    color: #ff8997;
+    font-size: 40px;
+   
+}
+
+.nome{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-2{
+    padding-top: 15%;
+    padding-left: 6%;
+}
+
+.div-img{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.div-img img{
+    width: 7vh;
+    height: 7vh;
+    margin-left: 1%;
+    transition: 1s;
+}
+
+.div-img img:hover{
+    width: 8vh;
+    height: 8vh;
+
+}
+
+.header-2 h2{
+    letter-spacing: 7px;
+    color: #ff8997;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14vh;
+    width: 60%;
+}
+
+/* começo main */
+
+main{
+    width: 100%;
+    height: 500vh;
+   
+}
+
+
+
+.sobre{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding-top: 10%;
+    background-color: #000003ef;
+}
+.mim {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.mim h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+.linha-1{
+    width: 40%;
+    border: 4px dashed #fc6879;
+    margin-left: 29%;
+    margin-top: 1%;
+}
+
+.mim h3{
+    width: 80%;
+
+    font-size: 28px;
+    color: #fff;
+    padding-left: 10%;
+    text-align:justify;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.sobre img{
+    width:70vh;
+    height: 70vh;
+    border-radius: 50%;
+    padding-left: 4%;
+    transition: 1s;
+    
+}
+
+
+/* main cads */
+
+.habilidades{
+    width: 100%;
+    height: 220vh;
+    background-color: #000003;
+    color: white;
+}
+
+.habilidades h2{
+    font-size: 70px;
+    padding-top: 2%;
+    padding-left: 30%;
+   
+    
+    font-family: 'Orbitron', sans-serif;
+}
+
+.linha{
+    width: 50%;
+    border: 4px dashed #fc6879;
+    margin-left: 25%;
+}
+
+.logo{
+    padding-top: 2%;
+    width: 100%;
+    height: 200vh;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #000003;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.JS{
+    background-image: url("assent/js.webp");
+    background-color: #f9e000;
+}
+
+.css{
+    background-image: url("assent/css.jpg");
+    background-color: #0047bd;
+}
+
+.html{
+    background-image:  url("assent/html.jpg");
+    background-color: #e55025;
+}
+
+.git{
+    background-image: url("assent/git.png");
+    background-color: #f26248;
+}
+
+.github{
+    background-image: url("assent/GitHub.jpg");
+    background-color: #6e55e4;
+}
+
+.responsivo{
+    background-image: url("assent/site-responsivo-img_header.jpg");
+    background-color: #389ac7;
+}
+
+
+.html, .css, .JS, .git, .github, .responsivo{
+    width: 20%;
+    height: 70vh;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2%;
+    color: white;
+}
+
+.JS-1 h4{
+    color: rgb(255, 255, 131);
+}
+
+.css-1 h4{
+    color: rgb(133, 133, 248);
+}
+
+.html-1 h4{
+    color: #ff9500;
+}
+
+.git-1 h4{
+    color: rgb(253, 166, 134);
+    
+}
+
+.github-1 h4{
+    color: #2220a8;
+}
+
+.responsivo-1 h4{
+    color: #0073a8;
+}
+
+.logo h4{
+    margin-top: 65%;
+    font-size: 12px;
+    margin-left: 5%;
+}
+
+.logo h3{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.logo p{
+    margin-top: 5%;
+    font-size: 20px;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.responsivo-1 P{
+    font-size: 18px;
+}
+
+/* cards */
+
+.linha-2{
+    width: 70vh;
+    border: #fc6879 dashed 2px;
+    margin-left: 34.5%;
+    margin-bottom: 3%;
+}
+
+
+#projetos{
+    background-color: #000003ef;
+    height: 30vh;
+  
+}
+#projetos h2{
+    color: white;
+    font-size: 55px;
+    margin-left: 38%;
+    padding-top: 5%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.img-1{
+    background-image: url("assent/404.png");
+}
+
+.img-2{
+    background-image: url("assent/ada.png");
+}
+
+.img-4{
+    background-image: url("assent/clube.png");
+}
+
+
+.img-6{
+    background-image: url("assent/star\ wars.png");
+}
+
+.img-7{
+    background-image: url("assent/copa.png");
+}
+
+.img-8{
+    background-image: url("assent/pixar.png");
+}
+
+
+.img-1, .img-2, .img-4, .img-6, .img-7, .img-8 {
+    width: 60vh;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+
+.text-1{
+    background-color: #6d55e493;
+}
+
+.text-2{
+    background-color: #aaaaaa93;
+}
+
+
+.text-4{
+    background-color: #cf6f5d79;
+}
+
+
+.text-6{
+    background-color: rgba(167, 5, 5, 0.596);
+}
+
+.text-7{
+    background-color: rgba(0, 128, 0, 0.425);
+}
+
+.text-8{
+    background-color: #807f7f93;
+}
+
+.text-1, .text-2, .text-4, .text-6, .text-7, .text-8{
+    width: 60vh;
+    height: 40vh;
+    opacity: 0;
+    transition: 1s all;
+}
+
+.text-1:hover, .text-2:hover, .text-4:hover, .text-6:hover, .text-7:hover, .text-8:hover{
+    opacity: 1;
+    transform: scale(1.06);
+}
+
+
+.contet{
+    width: 100%;
+    height: 139vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+    background-color: #000003ef;
+}
+.contet h3{
+    color: white;
+    font-size: 40px;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+.contet p{
+    padding-left: 8%;
+    padding-top: 2%;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+}
+
+.contet button {
+    width: 10vh;
+    height: 5vh;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 9%;
+    background-color: transparent;
+    
+}
+
+.contet a{
+    text-decoration: none;
+    color: white;
+}
+
+.direita{
+    margin-left: 8%;
+}
+
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #000003;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 20px;
+}
+
+
+footer img{
+    width: 8vh;
+    height: 8vh;
+    filter: grayscale(1);
+    transition: all 1s;
+    
+}
+
+footer img:hover{
+    filter: grayscale(0);
+}
+
+footer p{
+    margin-left: 41.5%;
+    margin-top: 2%;
+    font-size: 12px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer ul{
+    display: flex;
+    margin-left: 44%;
+    padding-top: 5%;
+    list-style: none;
+}
+
+footer li{
+    margin-left: 3%;
+}
